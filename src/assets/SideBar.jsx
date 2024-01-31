@@ -5,7 +5,7 @@ import { PiNutBold } from "react-icons/pi";
 const SideBar = () => {
   return (
     <>
-      <div className="flex flex-col content-start h-screen bg-primary text-secondary w-16 justify-items-center m-0">
+      <div className="flex flex-col fixed content-start h-screen bg-primary text-secondary w-16 justify-items-center m-0">
         <SideBarIcon icon={<IoMdHome size="28" />} text={"Home"} />
         <SideBarIcon icon={<FaDharmachakra size="28" />} text={"Projects"} />
         <SideBarIcon icon={<PiNutBold size="28" />} text={"Services"} />

@@ -9,6 +9,11 @@ export default {
         primary: "#202225",
         secondary: "#5865f2",
       },
+      backgroundImage: {
+        sea1: 'url("https://raw.githubusercontent.com/dlnicoz/DhirajContractor/32d363711d80cc15244549700540dec6c7bebf59/public/bg-images/bg-1.webp")',
+        sea2: 'url("https://raw.githubusercontent.com/dlnicoz/DhirajContractor/32d363711d80cc15244549700540dec6c7bebf59/public/bg-images/bg-2.webp")',
+        sea3: 'url("https://raw.githubusercontent.com/dlnicoz/DhirajContractor/32d363711d80cc15244549700540dec6c7bebf59/public/bg-images/bg-3.webp")',
+      },
     },
   },
   plugins: [],
