@@ -10,12 +10,16 @@
     transition-all duration-300 ease-linear
     cursor-pointer;
   }
-
   .sidebar-text {
     @apply absolute w-auto p-2 m-2 min-w-max left-14
     rounded-md shadow-md
     text-white bg-gray-900
     text-xs font-bold
     transition-all duration-200 origin-left scale-0;
+  }
+  .cop {
+    align-self: center;
+    bottom: 0;
+    position: absolute;
   }
 }
