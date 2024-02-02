@@ -43,6 +43,7 @@
     align-self: center;
     bottom: 0;
     position: absolute;
+    margin-left: 0.5rem;
   }
   .parallax-image {
     @apply min-h-screen bg-center min-w-fit bg-no-repeat bg-cover bg-fixed;
