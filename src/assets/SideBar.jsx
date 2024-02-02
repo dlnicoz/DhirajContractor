@@ -6,7 +6,7 @@ import Parallax from "./Parallax";
 const SideBar = () => {
   return (
     <>
-      <div className="flex flex-col fixed content-start h-screen bg-primary text-secondary w-16 justify-items-center  top-0 left-0 shadow-lg">
+      <div className="flex flex-col fixed content-start h-screen bg-primary text-secondary w-16 justify-items-center  top-0 left-0 shadow-lg z-20">
         <SideBarIcon icon={<IoMdHome size="28" />} text={"Home"} />
         <hr className="sidebar-hr" />
         <SideBarIcon icon={<FaDharmachakra size="28" />} text={"Projects"} />

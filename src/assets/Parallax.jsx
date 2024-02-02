@@ -2,7 +2,7 @@ import WelcomePage from "./WelcomePage";
 const Parallax = () => {
   return (
     <>
-      <div className="content-container">
+      <div className="content-container z-10">
         <div className="bg-sea1 parallax-image">
           <WelcomePage />
         </div>
