@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         coolvetica: ["Coolvetica", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
       colors: {
         primary: "#202225",

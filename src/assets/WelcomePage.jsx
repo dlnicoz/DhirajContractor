@@ -10,7 +10,7 @@ const WelcomePage = () => {
               <div className="relative h-64 sm:h-80 lg:h-full">
                 <img
                   alt="House"
-                  src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                  src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
@@ -19,12 +19,12 @@ const WelcomePage = () => {
             <div className=" relative flex items-center bg-gray-100">
               <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
-              <div className="font-coolvetica p-8 sm:p-16 lg:p-24">
-                <h1 className="text-3xl text-black font-bold sm:text-5xl">
+              <div className="p-8 sm:p-16 lg:p-24">
+                <h1 className="font-coolvetica text-3xl text-black font-bold sm:text-5xl">
                   Welcome To,
                 </h1>
 
-                <h1 className="text-3xl font-bold sm:text-5xl">
+                <h1 className="font-coolvetica text-3xl font-bold sm:text-5xl text-gray-700">
                   <span className="text-green-500">
                     {info.name.split(" ")[0]}{" "}
                     {info.name.split(" ")[1].substring(0, 2)}
@@ -34,21 +34,26 @@ const WelcomePage = () => {
                     info.name.length,
                   )}
                 </h1>
-                <h2 className="text-2xl font-bold sm:text-3xl">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Tempore, debitis.
+                <h2 className="font-jost text-2xl font-bold sm:text-2xl text-gray-500">
+                  I&#39;m{" "}
+                  <span className="text-green-500 underline">
+                    {info.founder.split(" ")[0]}{" "}
+                    {info.founder.split(" ")[1].substring(0, 2)}
+                  </span>
+                  <span className="underline">
+                    {info.founder.substring(
+                      info.founder.split(" ")[0].length + 3,
+                      info.founder.length,
+                    )}{" "}
+                  </span>{" "}
+                  {info.about}
                 </h2>
 
-                <p className="mt-4 text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquid, molestiae! Quidem est esse numquam odio deleniti,
-                  beatae, magni dolores provident quaerat totam eos, aperiam
-                  architecto eius quis quibusdam fugiat dicta.
-                </p>
+                <p className="mt-4 font-jost text-gray-700">{info.moreabout}</p>
 
                 <a
                   href="#"
-                  className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  className="mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 tracking-widest focus:outline-none focus:ring active:text-green-500"
                 >
                   Get in Touch
                 </a>
