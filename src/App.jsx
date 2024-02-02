@@ -1,11 +1,14 @@
 import SideBar from "./assets/SideBar";
-import Parallax from "./assets/Parallax";
+import WelcomePage from "./assets/WelcomePage";
 
 function App() {
   return (
     <>
-      <SideBar />
-      <Parallax />
+      <div className="flex">
+        <SideBar />
+
+        {/* <WelcomePage /> */}
+      </div>
     </>
   );
 }

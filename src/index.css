@@ -11,11 +11,10 @@
     cursor-pointer;
   }
   .sidebar-text {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14
-    rounded-md shadow-md
-    text-white bg-gray-900
-    text-xs font-bold
-    transition-all duration-200 origin-left scale-0;
+    z-index: 100;
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md
+      shadow-md text-white bg-gray-900 text-xs font-bold transition-all
+      duration-200 origin-left scale-0;
   }
   .cop {
     align-self: center;
@@ -24,5 +23,17 @@
   }
   .parallax-image {
     @apply min-h-screen bg-center min-w-fit bg-no-repeat bg-cover bg-fixed;
+  }
+  .sidebar-hr {
+    @apply bg-gray-200 dark:bg-gray-800 
+    border border-gray-200 dark:border-gray-800 rounded-full
+    mx-2;
+  }
+  .content-container {
+    margin: 0 0 0 4rem;
+    @apply flex flex-col 
+    bg-gray-300 dark:bg-gray-700
+    h-full w-full 
+    overflow-hidden;
   }
 }
