@@ -5,6 +5,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        coolvetica: ["Coolvetica", "sans-serif"],
+      },
       colors: {
         primary: "#202225",
         secondary: "#5865f2",

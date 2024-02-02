@@ -1,4 +1,6 @@
+import ConfigData from "../config.json";
 const WelcomePage = () => {
+  const { info } = ConfigData;
   return (
     <>
       <section>
@@ -14,10 +16,24 @@ const WelcomePage = () => {
               </div>
             </div>
 
-            <div className="relative flex items-center bg-gray-100">
+            <div className=" relative flex items-center bg-gray-100">
               <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
-              <div className="p-8 sm:p-16 lg:p-24">
+              <div className="font-coolvetica p-8 sm:p-16 lg:p-24">
+                <h1 className="text-3xl text-black font-bold sm:text-5xl">
+                  Welcome To,
+                </h1>
+
+                <h1 className="text-3xl font-bold sm:text-5xl">
+                  <span className="text-green-500">
+                    {info.name.split(" ")[0]}{" "}
+                    {info.name.split(" ")[1].substring(0, 2)}
+                  </span>
+                  {info.name.substring(
+                    info.name.split(" ")[0].length + 3,
+                    info.name.length,
+                  )}
+                </h1>
                 <h2 className="text-2xl font-bold sm:text-3xl">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Tempore, debitis.

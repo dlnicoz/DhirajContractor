@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Coolvetica";
+  src:
+    url("./fonts/Coolvetica.ttf.woff") format("woff"),
+    url("./fonts/Coolvetica.ttf.eot"),
+    url("fonts/Coolvetica.ttf.svg#Coolvetica") format("svg"),
+    url("fonts/Coolvetica.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: "iori";
+    src:
+      url("fonts/Coolvetica.ttf.woff") format("woff"),
+      url("fonts/Coolvetica.ttf.svg#Coolvetica") format("svg"),
+      url("fonts/Coolvetica.ttf.eot"),
+      url("fonts/Coolvetica.ttf.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
 @layer components {
   .sidebar-icon {
     @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg text-green-500 bg-gray-800 
