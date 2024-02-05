@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div className="flex-1 bg-gray-100 p-4 2xl:px-90 xl:px-60 lg:px-40 md:px-20 ">
         <div className="font-jost text-black max-h-full mx-auto w-fit mt-16">
-          <h1 className="font-extrabold  text-4xl  mb-7 p-4">
+          <h1 className="font-extrabold  text-5xl  mb-7 p-4 max-sm:text-4xl">
             About Dhiraj Contractor
           </h1>
           <h2 className="-threet">Who are we?</h2>
