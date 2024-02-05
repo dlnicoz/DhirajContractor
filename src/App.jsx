@@ -7,13 +7,11 @@ function App() {
     <>
       <Router>
         <>
-          <div className="flex">
-            <SideBar />
-            <Routes>
-              <Route index path="/" element={<Home />}></Route>
-              <Route path="/About" element={<About />}></Route>
-            </Routes>
-          </div>
+          <SideBar />
+          <Routes>
+            <Route index path="/" element={<Home />}></Route>
+            <Route path="/About" element={<About />}></Route>
+          </Routes>
         </>
       </Router>
     </>
