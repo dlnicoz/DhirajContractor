@@ -24,7 +24,7 @@ const WelcomePage = () => {
                   Welcome To,
                 </h1>
 
-                <h1 className="font-coolvetica text-3xl font-bold sm:text-5xl text-gray-700">
+                <h1 className="font-coolvetica text-3xl font-bold sm:text-5xl tracking-wide text-gray-700">
                   <span className="text-green-500">
                     {info.name.split(" ")[0]}{" "}
                     {info.name.split(" ")[1].substring(0, 2)}
@@ -34,7 +34,7 @@ const WelcomePage = () => {
                     info.name.length,
                   )}
                 </h1>
-                <h2 className="font-jost text-2xl font-bold sm:text-2xl text-gray-500">
+                <h2 className="font-jost text-xl mt-3 font-bold sm:text-2xl  text-gray-500">
                   I&#39;m{" "}
                   <span className="text-green-500 underline">
                     {info.founder.split(" ")[0]}{" "}
@@ -49,10 +49,12 @@ const WelcomePage = () => {
                   {info.about}
                 </h2>
 
-                <p className="mt-4 font-jost text-gray-700">{info.moreabout}</p>
+                <p className="mt-4 text-lg font-jost text-gray-700">
+                  {info.moreabout}
+                </p>
 
                 <a
-                  href="#"
+                  href="/About"
                   className="mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 tracking-widest focus:outline-none focus:ring active:text-green-500"
                 >
                   Get in Touch

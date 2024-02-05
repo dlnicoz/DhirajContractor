@@ -6,13 +6,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="flex">
-          <SideBar />
-          <Routes>
-            <Route index path="/" element={<Home />}></Route>
-            <Route path="/About" element={<About />}></Route>
-          </Routes>
-        </div>
+        <>
+          <div className="flex">
+            <SideBar />
+            <Routes>
+              <Route index path="/" element={<Home />}></Route>
+              <Route path="/About" element={<About />}></Route>
+            </Routes>
+          </div>
+        </>
       </BrowserRouter>
     </>
   );
