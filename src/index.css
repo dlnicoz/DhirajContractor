@@ -54,10 +54,28 @@
     mx-2;
   }
   .content-container {
-    margin: 0 0 0 4rem;
+    /* margin: 0 0 0 4rem; */
     @apply flex flex-col 
     bg-gray-300 dark:bg-gray-700
     h-full w-full 
     overflow-hidden;
+  }
+  .-threet {
+    @apply p-4 font-bold text-3xl;
+  }
+  .-threet {
+    margin: 0.5rem 0 0.25rem;
+  }
+  .-twot {
+    @apply p-4 font-normal text-lg;
+  }
+  .-twot {
+    letter-spacing: -0.003rem;
+  }
+  .-onet {
+    @apply font-normal;
+  }
+  .-onet {
+    margin: 0.5rem 1rem 0.24rem;
   }
 }
