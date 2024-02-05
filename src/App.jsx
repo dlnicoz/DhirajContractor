@@ -1,21 +1,21 @@
 import SideBar from "./assets/SideBar";
 import Home from "./assets/Home";
 import About from "./assets/About";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <>
           <div className="flex">
             <SideBar />
-            <Routes>
+            <Switch>
               <Route index path="/" element={<Home />}></Route>
               <Route path="/About" element={<About />}></Route>
-            </Routes>
+            </Switch>
           </div>
         </>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
