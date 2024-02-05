@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ConfigData from "../config.json";
 const WelcomePage = () => {
   const { info } = ConfigData;
@@ -53,12 +54,12 @@ const WelcomePage = () => {
                   {info.moreabout}
                 </p>
 
-                <a
-                  href="/About"
+                <Link
+                  to="/About"
                   className="mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-600 tracking-widest focus:outline-none focus:ring active:text-green-500"
                 >
                   Get in Touch
-                </a>
+                </Link>
               </div>
             </div>
           </div>
