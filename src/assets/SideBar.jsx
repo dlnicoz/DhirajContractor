@@ -44,7 +44,7 @@ const SideBar = () => {
 
 const SideBarIcon = ({ icon, text, cop, flink }) => (
   <Link to={flink}>
-    <div className={`sidebar-icon group ${cop} `}>
+    <div className={`sidebar-icon pointer-events-auto group ${cop} `}>
       {icon}
       <span className="sidebar-text group-hover:scale-100 group-hover:z-50 ">
         {text}
