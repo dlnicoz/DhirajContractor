@@ -1,7 +1,7 @@
 import SideBar from "./assets/SideBar";
 import Home from "./assets/Home";
 import About from "./assets/About";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
@@ -9,10 +9,10 @@ function App() {
         <>
           <div className="flex">
             <SideBar />
-            <Switch>
+            <Routes>
               <Route index path="/" element={<Home />}></Route>
               <Route path="/About" element={<About />}></Route>
-            </Switch>
+            </Routes>
           </div>
         </>
       </Router>
