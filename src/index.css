@@ -61,7 +61,7 @@
     overflow-hidden;
   }
   .-threet {
-    @apply p-4 font-bold text-3xl;
+    @apply px-4 pt-5 font-bold text-3xl;
   }
   .-threet {
     margin: 0.5rem 0 0.25rem;
