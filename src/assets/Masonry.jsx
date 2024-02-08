@@ -2,10 +2,10 @@ import masonry from "data-masonry";
 
 document.addEventListener("DOMContentLoaded", masonry());
 
-const Masonry = ({ images }) => {
+const Masonry = ({ images, hight }) => {
   return (
     <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-masonry>
-      <li className="h-64">
+      <li className={`hight[1]`}>
         <img src={images[1]} alt="hi" />
       </li>
 

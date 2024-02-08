@@ -1,9 +1,6 @@
 import Masonry from "./Masonry";
 
-import ConfigData from "../config.json";
-const Img = ConfigData.Images[0];
-const Images = Img.kitchen;
-const ImageSection = ({ Images, Title }) => {
+const ImageSection = ({ Images, Title, hight }) => {
   return (
     <div className="max-w-screen-xl mx-auto px-4 md:px-8">
       <div
@@ -18,7 +15,7 @@ const ImageSection = ({ Images, Title }) => {
           {/* </p> */}
         </div>
       </div>
-      <Masonry images={Images} />
+      <Masonry images={Images} hight={hight} />
     </div>
   );
 };
