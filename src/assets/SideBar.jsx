@@ -15,7 +15,7 @@ const SideBar = () => {
           />
           <hr className="sidebar-hr" />
           <SideBarIcon
-            flink={"/"}
+            flink={"/Project"}
             icon={<FaDharmachakra size="28" />}
             text={"Projects"}
           />

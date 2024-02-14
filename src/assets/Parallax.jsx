@@ -17,6 +17,12 @@ const Parallax = () => {
         <div className="bg-green-50  parallax-image">
           <ImageSection Images={ImagesBedroom} Title={"Master Bedroom"} />
         </div>
+        <div className="bg-white  parallax-image">
+          <ImageSection Images={ImagesBedroom} Title={"Master Bedroom"} />
+        </div>
+        <div className="bg-sky-50  parallax-image">
+          <ImageSection Images={ImagesBedroom} Title={"Master Bedroom"} />
+        </div>
         <div className="bg-sea3 parallax-image"></div>
       </div>
     </>
