@@ -1,6 +1,6 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 const Project = () => {
   useEffect(() => {
     const slider = document.querySelector(".slider");
@@ -31,7 +31,7 @@ const Project = () => {
               "url('https://images7.alphacoders.com/878/878663.jpg')",
           }}
         >
-          <div className="content">
+          <div className="content font-coolvetica ">
             <h2 className="title">Lossless Youths</h2>
             <p className="description">
               {" "}
@@ -39,7 +39,7 @@ const Project = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.{" "}
             </p>
-            <button>Read More</button>
+            <button className="tbtn">Read More</button>
           </div>
         </li>
         <li
@@ -131,8 +131,46 @@ const Project = () => {
         </li>
       </ul>
       <nav className="nav">
-        <FaArrowLeft className="btn prev" name="arrow-back-outline" />
-        <FaArrowRight className="btn next" name="arrow-forward-outline" />
+        <button
+          type="button"
+          className="btn prev tbtn mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
+        >
+          <div className="flex flex-row align-middle">
+            <svg
+              className="w-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+            <p className="ml-2">Prev</p>
+          </div>
+        </button>
+        <button
+          type="button"
+          className="btn next tbtn mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
+        >
+          <div className="flex flex-row align-middle">
+            <span className="mr-2">Next</span>
+            <svg
+              className="w-5 ml-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              ></path>
+            </svg>
+          </div>
+        </button>
       </nav>
     </>
   );
