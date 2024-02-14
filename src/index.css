@@ -78,4 +78,41 @@
   .-onet {
     margin: 0.5rem 1rem 0.24rem;
   }
+  .masonry {
+    /* Enable Flexbox for horizontal layout */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between items as needed */
+
+    /* Responsive column layout */
+    @media (min-width: 640px) {
+      justify-content: space-between;
+    }
+
+    @media (min-width: 768px) {
+      justify-content: space-around;
+    }
+
+    @media (min-width: 1024px) {
+      justify-content: space-between;
+    }
+  }
+
+  .masonry-item {
+    /* Adjust the item's styles, such as width, padding, etc. */
+    flex: 1 0 100%; /* Each item takes full width initially, but can shrink */
+    margin-bottom: 16px; /* Adjust margin as needed */
+
+    @media (min-width: 640px) {
+      flex: 1 0 48%; /* Two items per row */
+    }
+
+    @media (min-width: 768px) {
+      flex: 1 0 48%; /* Two items per row with some gap */
+    }
+
+    @media (min-width: 1024px) {
+      flex: 1 0 32%; /* Three items per row */
+    }
+  }
 }

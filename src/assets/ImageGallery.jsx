@@ -1,10 +1,10 @@
-const ImageGallery = ({ images }) => {
+const ImageGallery = ({ image }) => {
   return (
-    <div className="image-gallery">
-      {images.map((image, index) => (
-        <img key={index} src={image} alt={`Image ${index + 1}`} />
+    <>
+      {Object.keys(image).map((key) => (
+        <img key={key} src={image[key]} alt={`Image ${key}`} />
       ))}
-    </div>
+    </>
   );
 };
 

@@ -1,30 +1,12 @@
-import masonry from "data-masonry";
-
-document.addEventListener("DOMContentLoaded", masonry());
+import ImageGallery from "./ImageGallery";
 
 const Masonry = ({ images, hight }) => {
   return (
-    <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-masonry>
-      <li className={`hight[1]`}>
-        <img src={images[1]} alt="hi" />
-      </li>
-
-      <li className="h-64">
-        <img src={images[2]} alt="hi" />
-      </li>
-      <li className="h-64">
-        <img src={images[3]} alt="hi" />
-      </li>
-      <li className="h-64">
-        <img src={images[4]} alt="hi" />
-      </li>
-      <li className="h-64">
-        <img src={images[5]} alt="hi" />
-      </li>
-      <li className="h-64">
-        <img src={images[6]} alt="hi" />
-      </li>
-    </ul>
+    <div className="p-5 md:p-10">
+      <div className="columns-1 gap-5 lg:gap-6 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
+        <ImageGallery image={images} />
+      </div>
+    </div>
   );
 };
 
