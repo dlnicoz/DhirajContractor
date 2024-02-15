@@ -23,15 +23,30 @@ const Project = () => {
 
   return (
     <>
+      {/* <div className="card w-96 glass"> */}
+      {/*   <figure> */}
+      {/*     <img */}
+      {/*       src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" */}
+      {/*       alt="car!" */}
+      {/*     /> */}
+      {/*   </figure> */}
+      {/*   <div className="card-body"> */}
+      {/*     <h2 className="card-title">Life hack</h2> */}
+      {/*     <p>How to park your car at your garage?</p> */}
+      {/*     <div className="card-actions justify-end"> */}
+      {/*       <button className="btn btn-primary">Learn now!</button> */}
+      {/*     </div> */}
+      {/*   </div> */}
+      {/* </div> */}
       <ul className="slider">
         <li
-          className="item"
+          className="item card glass"
           style={{
             backgroundImage:
               "url('https://images7.alphacoders.com/878/878663.jpg')",
           }}
         >
-          <div className="content font-coolvetica ">
+          <div className="content card-body font-coolvetica ">
             <h2 className="title">Lossless Youths</h2>
             <p className="description">
               {" "}
@@ -39,7 +54,7 @@ const Project = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.{" "}
             </p>
-            <button className="tbtn">Read More</button>
+            <Link className="tbtn">Read More</Link>
           </div>
         </li>
         <li
@@ -49,15 +64,15 @@ const Project = () => {
               "url('https://images7.alphacoders.com/878/878663.jpg')",
           }}
         >
-          <div className="content">
-            <h2 className="title">Estrange Bond</h2>
+          <div className="content card-body font-coolvetica ">
+            <h2 className="title">Lossless Youths</h2>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.{" "}
             </p>
-            <button>Read More</button>
+            <Link className="tbtn">Read More</Link>
           </div>
         </li>
         <li
@@ -67,15 +82,15 @@ const Project = () => {
               "url('https://images7.alphacoders.com/878/878663.jpg')",
           }}
         >
-          <div className="content">
-            <h2 className="title">The Gate Keeper</h2>
+          <div className="content card-body font-coolvetica ">
+            <h2 className="title">Lossless Youths</h2>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.{" "}
             </p>
-            <button>Read More</button>
+            <Link className="tbtn">Read More</Link>
           </div>
         </li>
         <li
@@ -85,48 +100,15 @@ const Project = () => {
               "url('https://images7.alphacoders.com/878/878663.jpg')",
           }}
         >
-          <div className="content">
-            <h2 className="title">Last Trace Of Us</h2>
+          <div className="content card-body font-coolvetica ">
+            <h2 className="title">Lossless Youths</h2>
             <p className="description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-              fuga voluptatum, iure corporis inventore praesentium nisi. Id
-              laboriosam ipsam enim.
-            </p>
-            <button>Read More</button>
-          </div>
-        </li>
-        <li
-          className="item"
-          style={{
-            backgroundImage:
-              "url('https://images7.alphacoders.com/878/878663.jpg')",
-          }}
-        >
-          <div className="content">
-            <h2 className="title">Urban Decay</h2>
-            <p className="description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-              fuga voluptatum, iure corporis inventore praesentium nisi. Id
-              laboriosam ipsam enim.
-            </p>
-            <button>Read More</button>
-          </div>
-        </li>
-        <li
-          className="item"
-          style={{
-            backgroundImage:
-              "url('https://images7.alphacoders.com/878/878663.jpg')",
-          }}
-        >
-          <div className="content">
-            <h2 className="title">The Migration</h2>
-            <p className="description">
+              {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.{" "}
             </p>
-            <button>Read More</button>
+            <Link className="tbtn">Read More</Link>
           </div>
         </li>
       </ul>
