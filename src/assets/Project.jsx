@@ -23,21 +23,6 @@ const Project = () => {
 
   return (
     <>
-      {/* <div className="card w-96 glass"> */}
-      {/*   <figure> */}
-      {/*     <img */}
-      {/*       src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" */}
-      {/*       alt="car!" */}
-      {/*     /> */}
-      {/*   </figure> */}
-      {/*   <div className="card-body"> */}
-      {/*     <h2 className="card-title">Life hack</h2> */}
-      {/*     <p>How to park your car at your garage?</p> */}
-      {/*     <div className="card-actions justify-end"> */}
-      {/*       <button className="btn btn-primary">Learn now!</button> */}
-      {/*     </div> */}
-      {/*   </div> */}
-      {/* </div> */}
       <ul className="slider">
         <li
           className="item card glass"
@@ -47,7 +32,7 @@ const Project = () => {
           }}
         >
           <div className="content card-body font-coolvetica ">
-            <h2 className="title">Lossless Youths</h2>
+            <h1 className="title">Lossless Youths</h1>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -65,7 +50,7 @@ const Project = () => {
           }}
         >
           <div className="content card-body font-coolvetica ">
-            <h2 className="title">Lossless Youths</h2>
+            <h1 className="title">Lossless Youths</h1>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -83,7 +68,7 @@ const Project = () => {
           }}
         >
           <div className="content card-body font-coolvetica ">
-            <h2 className="title">Lossless Youths</h2>
+            <h1 className="title">Lossless Youths</h1>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -101,7 +86,7 @@ const Project = () => {
           }}
         >
           <div className="content card-body font-coolvetica ">
-            <h2 className="title">Lossless Youths</h2>
+            <h1 className="title text-xl">Lossless Youths</h1>
             <p className="description">
               {" "}
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -115,7 +100,7 @@ const Project = () => {
       <nav className="nav">
         <button
           type="button"
-          className="btn prev tbtn mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
+          className="btn prev mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500  py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
         >
           <div className="flex flex-row align-middle">
             <svg
@@ -135,7 +120,7 @@ const Project = () => {
         </button>
         <button
           type="button"
-          className="btn next tbtn mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500 px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
+          className="btn  next mt-8 inline-block font-coolvetica rounded border border-green-600 bg-green-500  py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white tracking-widest focus:outline-none focus:ring active:text-white"
         >
           <div className="flex flex-row align-middle">
             <span className="mr-2">Next</span>
