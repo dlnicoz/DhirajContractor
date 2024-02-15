@@ -160,7 +160,7 @@ main {
   &:nth-child(2) {
     left: 0;
     top: 0;
-    width: -moz-available;
+    width: 100%;
     height: 100vh;
     transform: none;
     border-radius: 0;

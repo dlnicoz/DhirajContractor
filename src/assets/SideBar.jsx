@@ -20,7 +20,7 @@ const SideBar = () => {
             text={"Projects"}
           />
           <SideBarIcon
-            flink={"/"}
+            flink={"/Service"}
             icon={<PiNutBold size="28" />}
             text={"Services"}
           />
