@@ -3,6 +3,7 @@ import ConfigData from "../config.json";
 
 const WelcomePage = () => {
   const { info } = ConfigData;
+  const Founder = "https://raw.githubusercontent.com/dlnicoz/DhirajContractor/master/src/assets/founder.webp"
   return (
     <>
       <section>
