@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import ConfigData from "../config.json";
-import Founder from "/founder.webp";
+
 const WelcomePage = () => {
   const { info } = ConfigData;
   return (
