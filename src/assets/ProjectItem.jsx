@@ -1,4 +1,6 @@
-const ProjectItem = () => {
+import ImageBGallery from "./ImageBGallery";
+
+const ProjectItem = ({ data, pimage }) => {
   return (
     <div className="h-full w-screen bg-white relative ml-2 pt-20 pb-8 md:pt-16 md:pb-0">
       <div>
@@ -7,7 +9,7 @@ const ProjectItem = () => {
           "
         >
           <h2 className="text-2xl leading-normal mb-2 font-bold text-black">
-            Theather in Dadar
+            {data.title}
           </h2>
 
           <svg
@@ -49,14 +51,10 @@ const ProjectItem = () => {
             ></line>
           </svg>
           <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-            Save time managing advertising &amp; Content for your business.
+            {data.desc}
           </p>
         </header>
-        <img
-          className="md:p-8 p-2 h-auto w-full max-w-full rounded-lg object-cover object-center "
-          src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-          alt=""
-        />
+        <ImageBGallery image={pimage} />
       </div>
     </div>
   );
