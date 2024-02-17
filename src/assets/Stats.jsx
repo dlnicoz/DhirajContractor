@@ -12,31 +12,31 @@ const Stats = () => {
                 Successful Projects
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            {/* <div className="flex flex-col items-center">
               <h3 className="text-5xl font-extrabold leading-tight text-center text-dark-grey-900">
                 $<span id="countto2">100</span>m
               </h3>
               <p className="text-base font-medium leading-7 text-center text-black">
                 Annual Revenue Growth
               </p>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center">
               <h3 className="text-5xl font-extrabold leading-tight text-center text-dark-grey-900">
                 <span id="countto3" data-decimal="1">
-                  290
+                  70
                 </span>
-                k+
+                +
               </h3>
               <p className="text-base font-medium leading-7 text-center text-black">
-                Global Partners
+                City Location
               </p>
             </div>
             <div className="flex flex-col items-center">
               <h3 className="text-5xl font-extrabold leading-tight text-center text-dark-grey-900">
-                <span id="countto4">190</span>+
+                <span id="countto4">120</span>+
               </h3>
               <p className="text-base font-medium leading-7 text-center text-black">
-                Daily Website Visitors
+                Staff Support
               </p>
             </div>
           </div>

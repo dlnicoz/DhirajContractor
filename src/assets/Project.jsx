@@ -142,7 +142,7 @@ const Project = () => {
             <Link className="tbtn" to="/Project6">More</Link>
           </div>
         </li>
-        <li
+        {/* <li
           className="item"
           style={{
             backgroundImage:
@@ -157,7 +157,7 @@ const Project = () => {
             </p>
             <Link className="tbtn" to="/Project7">More</Link>
           </div>
-        </li>
+        </li> */}
       </ul>
       <nav className="nav">
         <ion-icon class="btn prev" name="arrow-back-outline"></ion-icon>
