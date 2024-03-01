@@ -2,6 +2,7 @@ import SideBar from "./assets/SideBar";
 import Home from "./assets/Home";
 import About from "./assets/About";
 import Project from "./assets/Project";
+import Projects from "./assets/Projects";
 import ProjectItem from "./assets/ProjectItem";
 // projects starts
 import Project1 from "./assets/projectPages/Project1";
@@ -17,12 +18,13 @@ function App() {
     <>
       <Router>
         <>
-          <div className="flex">
+          <div className="flex bg-white">
             <SideBar />
             <Routes>
               <Route index path="/" element={<Home />}></Route>
               <Route path="/About" element={<About />}></Route>
               <Route path="/Project" element={<Project />}></Route>
+              <Route path="/Projects" element={<Projects />}></Route>
               <Route path="/ProjectItem" element={<ProjectItem />}></Route>
               <Route path="/Service" element={<ServicesSection />}></Route>
               {/* projects starts */}
