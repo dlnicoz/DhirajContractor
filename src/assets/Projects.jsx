@@ -20,6 +20,7 @@ const Projects = () => {
             title={"Dadar"}
             altinfo={"dadar project"}
             desc={"well polished"}
+            linkpage={"/Project1"}
           />
           <ProjectsCards
             imgLink={
