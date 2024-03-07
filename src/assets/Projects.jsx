@@ -1,4 +1,7 @@
 import ProjectsCards from "./ProjectsCards";
+import ConfigData from "../config.json";
+const data = ConfigData.Projects;
+const idata = data[0];
 
 const Projects = () => {
   return (
@@ -14,84 +17,74 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
             linkpage={"/Project1"}
           />
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project2.wurl}
+            title={idata.project2.title}
+            altinfo={idata.project2.title}
+            desc={idata.project2.desc}
+            linkpage={"/Project2"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
 
           <ProjectsCards
-            imgLink={
-              "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-            }
-            title={"Dadar"}
-            altinfo={"dadar project"}
-            desc={"well polished"}
+            imgLink={idata.project1.wurl}
+            title={idata.project1.title}
+            altinfo={idata.project1.title}
+            desc={idata.project1.desc}
+            linkpage={"/Project1"}
           />
         </div>
       </section>
