@@ -63,17 +63,36 @@
   "Projects": [
     {
       "project1": {
-        "wurl": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGludGVyaW9yJTIwZGVjb3J8ZW58MHx8MHx8fDA%3D",
+        "wurl": "./assets/Images/IMG_1348.webp",
         "title": "dadar",
         "desc": "lorem epum lkimk kind lorem epsum lorem epsum lorem",
         "images": {
-          "1": "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI3fHxsaXZpbmclMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
-          "2": "https://plus.unsplash.com/premium_photo-1661874816704-3e5399637b5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fGxpdmluZyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
-          "3": "https://images.unsplash.com/photo-1587874522487-fe10e954d035?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGJlZHJvb20lMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
-          "4": "https://plus.unsplash.com/premium_photo-1676823571650-bae964e7010f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxsaXZpbmclMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
-          "5": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "6": "https://images.unsplash.com/photo-1565329921943-7e537b7a2ea9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEwfHxiZWRyb29tJTIwZGVzaWdufGVufDB8fDB8fHww",
-          "7": "https://images.unsplash.com/photo-1612965607446-25e1332775ae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "1": "./assets/Images/IMG_1343.webp"
+          "2": "./assets/Images/IMG_1344.webp"
+          "3": "./assets/Images/IMG_1345.webp"
+          "4": "./assets/Images/IMG_1346.webp"
+          "5": "./assets/Images/IMG_1347.webp"
+          "6": "./assets/Images/IMG_1348.webp"
+          "7": "./assets/Images/IMG_1349.webp"
+          "8": "./assets/Images/IMG_1350.webp"
+          "9": "./assets/Images/IMG_1350.webp"
+          "10": "./assets/Images/IMG_1350.webp"
+          "11": "./assets/Images/IMG_1351.webp"
+          "12": "./assets/Images/IMG_1354.webp"
+          "13": "./assets/Images/IMG_1356.webp"
+          "14": "./assets/Images/IMG_1357.webp"
+          "15": "./assets/Images/IMG_1359.webp"
+          "16": "./assets/Images/IMG_1360.webp"
+          "17": "./assets/Images/IMG_1361.webp"
+          "18": "./assets/Images/IMG_1362.webp"
+          "19": "./assets/Images/IMG_1363.webp"
+          "20": "./assets/Images/IMG_1364.webp"
+          "21": "./assets/Images/IMG_1366.webp"
+          "22": "./assets/Images/IMG_1367.webp"
+          "23": "./assets/Images/IMG_1369.webp"
+          "24": "./assets/Images/IMG_1370.webp"
+          "25": "./assets/Images/IMG_1371.webp"
+          "26": "./assets/Images/IMG_1372.webp"
         }
       },
       "project2": {
