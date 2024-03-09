@@ -1,4 +1,12 @@
-import { FaFirefox } from "react-icons/fa6";
+import { MdArchitecture } from "react-icons/md";
+import { MdImagesearchRoller } from "react-icons/md";
+import { GiAnarchy } from "react-icons/gi";
+import { SiTreyarch } from "react-icons/si";
+import { TbEyeSearch } from "react-icons/tb";
+import { MdDesignServices } from "react-icons/md";
+import { SiAffinitydesigner } from "react-icons/si";
+import { SiAltiumdesigner } from "react-icons/si";
+import { SiAntdesign } from "react-icons/si";
 import ServiceItem from "./ServiceItem";
 import Stats from "./Stats";
 
@@ -60,7 +68,7 @@ const ServicesSection = () => {
           {/* Service Blocks */}
           {/* Service 1 */}
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<MdArchitecture size="28" />}
             title="Interior Design Consultation"
             desc="Space , layout planning  
             Color , material selection 
@@ -68,14 +76,14 @@ const ServicesSection = () => {
           />
 
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<MdImagesearchRoller size="28" />}
             title="Pre-Design"
             desc="Site analysis assessment
             Concept development sketches"
           />
 
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<GiAnarchy size="28" />}
             title="Architectural Design"
             desc="Floor plan development
             3D modeling and rendering
@@ -83,38 +91,38 @@ const ServicesSection = () => {
           />
 
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<SiTreyarch size="28" />}
             title="Construction Mangement"
             desc="Project planning scheduling
             Cost estimation and budget"
           />
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<MdDesignServices size="28" />}
             title="General Contracting"
             desc="Full-scale construction home
             Plumbers , electricians , carpenters
             Quality control assurance"
           />
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<SiAffinitydesigner size="28" />}
             title="Interior Renovation"
             desc="Demolition of existing structures
             Renovation existing spaces"
           />
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<SiAltiumdesigner size="28" />}
             title="Exterior Construction"
             desc="Building exterior walls ,roofs
             Outdoor space design"
           />
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<SiAntdesign size="28" />}
             title="Custom Furniture Cabinetry"
             desc="Fabrication of custom furniture
             Built-in cabinets and fixtures"
           />
           <ServiceItem
-            icon={<FaFirefox size="28" />}
+            icon={<TbEyeSearch size="28" />}
             title="Post-Construction "
             desc="Final quality inspections
             Warrenty and maintenance"
