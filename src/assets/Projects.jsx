@@ -6,7 +6,7 @@ const idata = data[0];
 const Projects = () => {
   return (
     <>
-      <section className="font-coolvetica max-w-6xl mx-auto bg-white pl-16 pr-4 sm:px-6 lg:px-4 py-12">
+      <section className="font-coolvetica max-w-6xl mx-auto bg-white pl-16 pr-4 py-12">
         <div className="text-center pb-12">
           <h2 className="text-base font-bold text-green-600">
             We have the best equipment in the market

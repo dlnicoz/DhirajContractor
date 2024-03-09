@@ -50,7 +50,8 @@ const ServicesSection = () => {
             ></line>
           </svg>
           <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-            Save time managing advertising &amp; Content for your business.
+            {/* Save time managing advertising &amp; Content for your business. We */}
+            We offer full-service interior design and construction for homes
           </p>
         </header>
         {/* End heading */}
@@ -60,33 +61,63 @@ const ServicesSection = () => {
           {/* Service 1 */}
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="Interior Design Consultation"
+            desc="Space , layout planning  
+            Color , material selection 
+            Decor recommendations"
+          />
+
+          <ServiceItem
+            icon={<FaFirefox size="28" />}
+            title="Pre-Design"
+            desc="Site analysis assessment
+            Concept development sketches"
+          />
+
+          <ServiceItem
+            icon={<FaFirefox size="28" />}
+            title="Architectural Design"
+            desc="Floor plan development
+            3D modeling and rendering
+            Exterior elevation design"
+          />
+
+          <ServiceItem
+            icon={<FaFirefox size="28" />}
+            title="Construction Mangement"
+            desc="Project planning scheduling
+            Cost estimation and budget"
           />
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="General Contracting"
+            desc="Full-scale construction home
+            Plumbers , electricians , carpenters
+            Quality control assurance"
           />
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="Interior Renovation"
+            desc="Demolition of existing structures
+            Renovation existing spaces"
           />
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="Exterior Construction"
+            desc="Building exterior walls ,roofs
+            Outdoor space design"
           />
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="Custom Furniture Cabinetry"
+            desc="Fabrication of custom furniture
+            Built-in cabinets and fixtures"
           />
           <ServiceItem
             icon={<FaFirefox size="28" />}
-            title="Interior Design"
-            desc="we jflea jfalkjaflej jfaek"
+            title="Post-Construction "
+            desc="Final quality inspections
+            Warrenty and maintenance"
           />
 
           {/* Service 2 */}

@@ -14,7 +14,11 @@ const ServiceItem = ({ icon, title, desc }) => {
         <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
           {title}
         </h3>
-        <p className="text-gray-500">{desc}</p>
+        {desc.split("\n").map((line, index) => (
+          <p key={index} className="text-gray-500">
+            {line}
+          </p>
+        ))}
       </div>
     </div>
   );
